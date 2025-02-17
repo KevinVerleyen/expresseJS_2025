@@ -1,0 +1,29 @@
+{
+  "name": "demo_01_intro",
+  "version": "0.1.0",
+  "description": "Prémier démo expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinVerleyen/expresseJS_2025.git"
+  },
+  "keywords": [
+    "démo",
+    "express"
+  ],
+  "author": "verleyen-kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinVerleyen/expresseJS_2025/issues"
+  },
+  "homepage": "https://github.com/KevinVerleyen/expresseJS_2025#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.0.1"
+  }
+}

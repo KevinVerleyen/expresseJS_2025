@@ -22,3 +22,12 @@
 ```
 
 -node --watch index.js permet de remplacer la dependance nodemon en ajoutant nativement un hot-reload à notre application
+
+### Installation des dépendances
+
+-Dépendances de développement
+-pour enregister une dépendance uniquement nécessaire en développement on va utiliser la commande : npm install --save-dev "nom de la dépendance" (par exemple : npm i --save-dev nodemon)
+
+-Dépendances de production
+
+- Pour enregister une dépendance nécessaire pour toute la durée de vie du projet on va utiliser la commande : npm install "nom de la dépendance" (par exemple : npm i express)
